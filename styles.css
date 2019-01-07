@@ -4,7 +4,7 @@ body {
 
 * {
   box-sizing: border-box;
-  }
+}
 
 img {
   max-width: 100%;
@@ -47,41 +47,63 @@ header form input[type="submit"] {
   margin-top: 150px;
 }
 
-
-
-
-main{
+main {
   width: 65%;
   float: left;
   padding-left: 35px;
 }
-.video-container{
+.video-container {
   overflow: hidden;
   padding-top: 56.25%;
   position: relative;
 }
 
 .main-video {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
-.info-bar{
+.info-bar {
   border-bottom: 1px solid #ddd;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
-.info-bar__right{
+.info-bar__right {
   display: flex;
   width: 200px;
   justify-content: space-between;
 }
 
-aside{
+.about-video {
+  display: flex;
+  align-items: flex-start;
+}
+
+.about-video__info {
+  padding-left: 20px;
+}
+
+.about-video__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-video__author-name {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.about-video__date {
+  font-size: 0.8rem;
+}
+
+aside {
   width: 30%;
   float: left;
   margin-left: 25px;
