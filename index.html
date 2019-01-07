@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Embedding Images and Video</title>
+  </head>
+  <body>
+    <header>
+      <a href="#">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png"
+          alt="Logo"
+        />
+      </a>
+      <form action="#">
+        <input type="text" placeholder="Search" />
+        <input type="submit" value="Go!" />
+      </form>
+      <a href="#">Log in</a>
+    </header>
+
+    <div class="container">
+      <main>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ZnuwB35GYMY"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h1>How To Embed A YouTube Video</h1>
+        <div class="info-bar">
+          <div class="info-bar__views"></div>
+          <div class="info-bar__rating"></div>
+          <div class="info-bar__share"></div>
+        </div>
+      </main>
+
+      <aside></aside>
+    </div>
+  </body>
+</html>
