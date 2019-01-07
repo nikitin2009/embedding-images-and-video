@@ -4,7 +4,7 @@ body {
 
 * {
   box-sizing: border-box;
-}
+  }
 
 img {
   max-width: 100%;
@@ -20,6 +20,7 @@ header {
   width: 100%;
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 999;
 }
 
 header .logo {
@@ -44,4 +45,44 @@ header form input[type="submit"] {
 
 .container {
   margin-top: 150px;
+}
+
+
+
+
+main{
+  width: 65%;
+  float: left;
+  padding-left: 35px;
+}
+.video-container{
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.main-video {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.info-bar{
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+.info-bar__right{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+aside{
+  width: 30%;
+  float: left;
+  margin-left: 25px;
 }
