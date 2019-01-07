@@ -10,6 +10,11 @@ img {
   max-width: 100%;
 }
 
+h2, h3, h4{
+  margin-top: 0;
+}
+
+
 header {
   display: flex;
   padding: 10px;
@@ -82,6 +87,7 @@ main {
 .about-video {
   display: flex;
   align-items: flex-start;
+  border-bottom: 1px solid #ddd;
 }
 
 .about-video__info {
@@ -103,8 +109,65 @@ main {
   font-size: 0.8rem;
 }
 
+.comment-section__leave-comment{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.comment-section__comment-form{
+width: 100%;
+
+  }
+.comment-section__comment-form input{
+  width: 100%;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  margin-left: 10px;
+  font-size: 15px;
+
+}
+
+.comment-section__single-comment{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 35px;
+}
+
+.single-comment__wrapper{
+  padding-left: 15px;
+}
+
 aside {
   width: 30%;
   float: left;
   margin-left: 25px;
+}
+
+.autoplay{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.autoplay-wrap{
+  display: flex;
+  align-items: flex-start;
+}
+
+.video-thumb{
+  width: 45%;
+}
+
+.next-video__video-wrap, .related-video__video-wrap{
+display: flex;
+align-items: flex-start;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.related-wrap {
+  padding-left: 10px;
 }
