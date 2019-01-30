@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2, h3, h4{
+  margin-top: 0;
+}
+
+
+header {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+header .logo {
+  max-width: 100px;
+  margin-left: 25px;
+}
+
+header form {
+  display: flex;
+  justify-content: center;
+  flex-basis: 50%;
+}
+
+header form input {
+  padding: 10px;
+}
+
+header form input[type="text"] {
+  flex-basis: 80%;
+  max-width: 80%;
+}
+
+.search {
+  flex-basis: 20%;
+  max-width: 20%;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+main {
+  width: 65%;
+  float: left;
+  padding-left: 35px;
+}
+.video-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.main-video {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.info-bar {
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.info-bar__right {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.about-video {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+}
+
+.about-video__info {
+  padding-left: 20px;
+}
+
+.about-video__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-video__author-name {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.about-video__date {
+  font-size: 0.8rem;
+}
+
+.comment-section__leave-comment{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.comment-section__comment-form{
+width: 100%;
+
+  }
+.comment-section__comment-form input{
+  width: 100%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  margin-left: 10px;
+  font-size: 15px;
+
+}
+
+.comment-section__single-comment{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 35px;
+}
+
+.single-comment__wrapper{
+  padding-left: 15px;
+}
+
+aside {
+  width: 30%;
+  float: left;
+  margin-left: 25px;
+}
+
+.autoplay{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.autoplay-wrap{
+  display: flex;
+  align-items: flex-start;
+}
+
+.video-thumb{
+  width: 45%;
+}
+
+.next-video__video-wrap, .related-video__video-wrap{
+display: flex;
+align-items: flex-start;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.related-wrap {
+  padding-left: 10px;
+}
